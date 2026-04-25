@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games Catalog</title>
+    <style>
+        body {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: #f0f0f0;
+            justify-content: center;
+            padding: 20px;
+        }
+        .game-card {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 20px;
+            width: 200px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .game-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            background-color: #e6f7ff;
+        }
+        h2 {
+            font-size: 1.5em;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="game-card">
+        <h2>Game Title 1</h2>
+    </div>
+    <div class="game-card">
+        <h2>Game Title 2</h2>
+    </div>
+    <div class="game-card">
+        <h2>Game Title 3</h2>
+    </div>
+</body>
+</html>
